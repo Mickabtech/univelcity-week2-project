@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: azure;
+}
+
+main{
+  padding: 20px 50px;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+nav, ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li{
+  list-style-type: none;
+  padding-left: 40px;
+}
+
+.btn{
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 10px;
+  width: 110px;
+  background-color: blue;
+}
+
+.btn:hover{
+  background-color: white;
+  color: blue;
+}
