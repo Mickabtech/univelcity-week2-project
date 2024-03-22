@@ -130,7 +130,7 @@ width: 70%;
 
 }
 
-.little{
+.little, .profile{
   color: skyblue;
 }
 
@@ -147,4 +147,33 @@ width: 70%;
 }
 .zlx{
   float: right;
+}
+
+hr{
+  margin-left: 60px;
+}
+
+.profile{
+  padding: 10px 60px;
+}
+
+.quot{
+  border: 2px solid white;
+  margin-top: 20px;
+  margin-left: 60px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  display: flex;
+}
+
+.qbt{
+  width: 40px;
+  margin: 15px 30px 
+}
+
+.qwt{
+  font-size: medium;
+  color: black;
+  padding: 10px;
 }
