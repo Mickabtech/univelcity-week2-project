@@ -121,8 +121,6 @@ p{
 .sdesign2{
 padding: 20px;
 width: 70%;
-flex-direction: column;
-display: flex;
 }
 
 .picture{
@@ -144,7 +142,9 @@ display: flex;
 .flx{
   display:flex;
   gap: 10px;
-  float:right;
   margin-bottom: 10px;
   margin-left: 30px;
+}
+.zlx{
+  float: right;
 }
