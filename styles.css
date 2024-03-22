@@ -8,7 +8,7 @@
 main{
   padding: 20px 50px;
   background-color: black;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
@@ -17,9 +17,29 @@ nav, ul{
   justify-content: space-between;
 }
 
-ul li{
+a{
+  text-decoration: none;
+}
+
+a:active{
+  text-decoration: underline;
+}
+
+ul,li{
   list-style-type: none;
-  padding-left: 40px;
+  gap: 40px;
+}
+
+li:hover{
+  color: blue;
+  border: 1px solid white;
+  padding: 0 10px;
+  border-radius: 3px;
+}
+
+.logo{
+  width: 40px;
+  border-radius: 30px;
 }
 
 .btn{
@@ -30,7 +50,101 @@ ul li{
   background-color: blue;
 }
 
-.btn:hover{
+.btn:hover, .lbtn:hover{
   background-color: white;
   color: blue;
+}
+
+h1{
+  font-family: "Mali", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24pt;
+}
+
+span{
+  color: blue;
+}
+
+p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15pt;
+}
+.hdesign, .sdesign{
+  display: flex;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.hdesign1{
+  width: 50%;
+  padding-top: 80px;
+  line-height: 2.5rem;
+}
+.hdesign2{
+  width: 50%;
+  padding: 30px 0;
+}
+
+.bg2{
+  width: 300px;  
+  float: right;
+  background: url(./asset/bgpassport.png);
+}
+
+.passport{
+  width: 250px;
+}
+
+.lbtn{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 11pt;
+  padding:10px;
+  border-radius: 10px;
+  background-color: blue;
+  border: none;
+  font-weight: 600;
+  margin-top: 80px;
+}
+
+
+.center{
+  text-align: center;
+}
+
+.sdesign1{
+  width: 30%;
+  padding-top: 80px;
+  line-height: 2.5rem;
+}
+
+.sdesign2{
+padding: 20px;
+width: 70%;
+flex-direction: column;
+display: flex;
+}
+
+.picture{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+}
+
+.little{
+  color: skyblue;
+}
+
+.ldn{
+  background-color: rgb(71, 71, 250);
+  width: 25px
+}
+
+.flx{
+  display:flex;
+  gap: 10px;
+  float:right;
+  margin-bottom: 10px;
+  margin-left: 30px;
 }
