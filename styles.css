@@ -177,3 +177,50 @@ hr{
   color: black;
   padding: 10px;
 }
+
+.skills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.shbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #000;
+  box-shadow: 0 0 10px rgba(0, 0, 255, 0.7);
+  height: 140px;
+  width: 700px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.flxj{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.simg{
+  width: 50px;
+}
+
+.pre{
+  margin-bottom: 10px;
+  color: rgb(89, 166, 233);
+}
+
+.projects, .ppimg{
+  margin: 30px;
+}
+
+
+.pimg{
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  margin-right: 15px;
+}
