@@ -299,4 +299,73 @@ hr{
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
+h1{
+  font-family: "Mali", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12pt;
+}
+
+.hdesign1{
+  width: 60%;
+  padding-top: 80px;
+  line-height: 2.5rem;
+}
+.hdesign2{
+  width: 40%;
+
+}
+
+.bg2{
+  display: flex;
+  margin-right: -120px;
+  margin-top: -20px;
+}
+
+.lbtn{
+  width: 300px;
+
+}
+
+.center{
+  margin-top: 30px;
+}
+
+.sdesign{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sdesign1{
+  width: 100%;
+  padding-top: 10px;
+  line-height: 2.5rem;
+  margin-left: 50px;
+}
+.picture{
+  margin-left: 10px;
+}
+
+.btn{
+  margin-left: 50px;
+}
+
+.sdesign2{
+  display: none;
+  }
+
+  .pimg{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .foot{
+    background-color: rgb(52, 9, 169);
+    padding: 20px 50px;
+    display: block;
+  }
 }
